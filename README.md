@@ -14,19 +14,20 @@ Developed by:Gopinath n
 
 RegisterNumber:26007691
 
-###import os
+import os
 
-###os.environ["OPENBLAS_NUM_THREADS"]="1"
+os.environ["OPENBLAS_NUM_THREADS"]="1"
 
-###import numpy as np
+import numpy as np
 
-###A=([[5,-3,-10],[2,2,-3],[-3,-1,5]])
+A=([[5,-3,-10],[2,2,-3],[-3,-1,5]])
 
-###sol=np.linalg.matrix_rank(A)
+sol=np.linalg.matrix_rank(A)
 
-###print(sol)
-### Output:<img width="1237" height="732" alt="image" src="https://github.com/user-attachments/assets/7b789129-2025-4b31-b24e-3f3c3f8966ab" />
+print(sol)
 
-### Result:
+## Output:<img width="1237" height="732" alt="image" src="https://github.com/user-attachments/assets/7b789129-2025-4b31-b24e-3f3c3f8966ab" />
+
+## Result:
 Thus the rank for the given matrix is successfully solved by  using a python program.
 
